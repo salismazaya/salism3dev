@@ -1,0 +1,19 @@
+{
+  "name": "salism3dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve .",
+    "build-dev": "tailwindcss -i ./public/css/raw_tailwind.css -o ./public/css/tailwind.css"
+  },
+  "keywords": [],
+  "author": "Salis Mazaya",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "10.4.12",
+    "postcss": "8.4.18",
+    "tailwindcss": "2.2.19"
+  }
+}
