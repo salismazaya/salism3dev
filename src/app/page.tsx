@@ -7,9 +7,15 @@ export default function Home() {
       <NavbarComponent></NavbarComponent>
       <div className="flex items-center min-h-[calc(100vh-5rem)] p-8">
         <div className="w-full">
-          <p className="text-3xl text-primary">Salis Mazaya Miftah Malik</p>
-          <p className="text-2xl text-secondary">Radical Developer</p>
-          <p className="mt-5 text-xl">Backend & Blockchain dev with 5+ years of experience. Passionate about building secure, efficient systems and exploring blockchain innovations.</p>
+
+          <Image src={"/salis.png"} alt="kasep" className="-translate-x-5" width={300} height={300} />
+          <div>
+            <p className="text-3xl text-primary ubuntu-bold">Salis Mazaya Miftah Malik</p>
+            <p className="text-2xl text-secondary bitcount-grid-double">Radical Developer</p>
+            <p className="mt-5 text-xl ubunt-light">Backend & Blockchain dev with 5+ years of experience. Passionate about building secure, efficient systems and exploring blockchain innovations.</p>
+
+          </div>
+
 
           <div className="mt-10 flex gap-3">
             <a href="https://github.com/salismazaya" target="_blank">
@@ -19,9 +25,9 @@ export default function Home() {
               <Image src={"/telegram.png"} alt="github" width={50} height={50} className="p-1 bg-white rounded-full"></Image>
             </a>
           </div>
-          <p className="text-gray-400 mt-28 text-3xl font-bold underline mb-3">Projects</p>
+          {/* <p className="text-gray-400 mt-28 text-3xl font-bold underline mb-3">Projects</p> */}
 
-          <div className="bg-gray-600 rounded-md p-5 drop-shadow-sm">
+          {/* <div className="bg-gray-600 rounded-md p-5 drop-shadow-sm">
 
             <div>
               <div className="flex gap-3 items-center">
@@ -31,7 +37,7 @@ export default function Home() {
               <p className="mt-5">WarungSwap merupakan bot yang menyediakan layanan transaksi Crypto dan PPOB dengan server yang aktif 24 jam Non-stop.</p>
             </div>
 
-          </div>
+          </div> */}
         </div>
       </div>
     </>
